@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup1"
+    android:background="@drawable/bloddymary">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/con"
+        android:layout_width="fill_parent"
+        android:layout_height="615dp"
+        android:background="@drawable/text_view_border"
+        android:weightSum="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/NameEditText"
+            android:layout_width="243dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="153dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="63dp"
+            android:layout_x="77dp"
+            android:layout_y="206dp"
+            android:drawableRight="@drawable/nameicon"
+            android:ems="10"
+            android:hint="Enter Name"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:theme="@style/MyEditTextStyle2"
+            app:layout_constraintBottom_toTopOf="@+id/USNeditText2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.48000002" />
+
+        <EditText
+            android:id="@+id/cnfpass"
+            android:layout_width="243dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="77dp"
+            android:layout_marginLeft="77dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="91dp"
+            android:layout_marginRight="91dp"
+            android:layout_marginBottom="45dp"
+            android:layout_x="78dp"
+            android:layout_y="417dp"
+            android:drawableRight="@drawable/passicon"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="#ffffff"
+            android:theme="@style/MyEditTextStyle2"
+            app:layout_constraintBottom_toTopOf="@+id/nextbutton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/passwordtextView2" />
+
+        <Button
+            android:id="@+id/nextbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="39dp"
+            android:layout_marginEnd="131dp"
+            android:layout_marginRight="131dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_bg_round"
+            android:padding="10dp"
+            android:text="Next"
+            android:textColor="#ffffff"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cnfpass" />
+
+        <TextView
+            android:id="@+id/passwordtextView2"
+            android:layout_width="178dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="404dp"
+            android:layout_marginBottom="5dp"
+            android:layout_x="77dp"
+            android:layout_y="392dp"
+            android:text="Confirm Password: "
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/cnfpass"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.369"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/PasswordeditText3"
+            android:layout_width="243dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="78dp"
+            android:layout_marginLeft="78dp"
+            android:layout_marginEnd="90dp"
+            android:layout_marginRight="90dp"
+
+            android:layout_marginBottom="1dp"
+            android:layout_x="78dp"
+            android:layout_y="417dp"
+            android:drawableRight="@drawable/passicon"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="#ffffff"
+            android:theme="@style/MyEditTextStyle2"
+            app:layout_constraintBottom_toTopOf="@+id/passwordtextView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/PasswordtextView" />
+
+        <EditText
+            android:id="@+id/USNeditText2"
+            android:layout_width="243dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="36dp"
+
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_x="78dp"
+            android:layout_y="318dp"
+            android:drawableRight="@drawable/mailicon"
+            android:ems="10"
+            android:hint="Enter Email"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:theme="@style/MyEditTextStyle2"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/NameEditText" />
+
+        <TextView
+            android:id="@+id/PasswordtextView"
+            android:layout_width="134dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="2dp"
+            android:layout_x="77dp"
+            android:layout_y="392dp"
+            android:text="Password: "
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/PasswordeditText3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.31"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/USNeditText2" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="148dp"
+            android:layout_height="50dp"
+
+            android:layout_marginTop="21dp"
+
+            android:layout_marginBottom="82dp"
+            android:clickable="true"
+            android:fontFamily="@font/lakki_reddy"
+            android:onClick="about"
+            android:text="MUFEE"
+            android:textColor="#ffffff"
+            android:textSize="45sp"
+            app:layout_constraintBottom_toTopOf="@+id/NameEditText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="356dp"
+        android:layout_height="37dp"
+
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="7dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/con" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

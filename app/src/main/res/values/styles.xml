@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyEditTextStyle2" parent="Widget.AppCompat.EditText">
+        <item name="colorControlActivated">#424242</item>
+        <item name="colorControlNormal">#d11472</item>
+    </style>
+
+    <style name="Cticon" parent="Widget.AppCompat.ImageButton">
+        <item name="colorControlActivated">@drawable/feedicon</item>
+        <item name="colorControlNormal">@drawable/ct2</item>
+    </style>
+
+    <style name="Proficon" parent="Widget.AppCompat.ImageButton">
+        <item name="colorControlActivated">@drawable/prof2</item>
+        <item name="colorControlNormal">@drawable/profile</item>
+    </style>
+
+    <style name="Abticon" parent="Widget.AppCompat.ImageButton">
+        <item name="colorControlActivated">@drawable/abt2</item>
+        <item name="colorControlNormal">@drawable/abticon</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">MuFee</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">USN</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string-array name="aoi">
+        <item> </item>
+        <item>AI/ML</item>
+        <item>IOT</item>
+        <item>AR/VR</item>
+        <item>MUNL</item>
+        <item>Universe</item>
+        <item>Tesla/SpaceX</item>
+        <item>Web Dev</item>
+        <item>Blockchain</item>
+        <item>Automobile</item>
+        <item>Design and architecture</item>
+        <item>Psychology</item>
+        <item>Nano tech</item>
+        <item>Quantum Phy</item>
+        <item>Robotics</item>
+        <item>Networking</item>
+        <item>Automation</item>
+        <item>Entreprenuership</item>
+        <item>Communication and media</item>
+        <item>Sales and marketing</item>
+        <item>Finance</item>
+    </string-array>
+
+
+    <string-array name="year">
+        <item> </item>
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Fourth</item>
+
+    </string-array>
+
+
+    <string-array name="branch">
+        <item> </item>
+        <item>Computer Science</item>
+        <item>Information Science</item>
+        <item>Mechanical</item>
+        <item>Electronics</item>
+    </string-array>
+
+    <string name="sup"><u>Sign Up!</u>.</string>
+    <string name="aiml">
+        <a href="https://artificialintelligence-news.com/"> Artificial Intelligence/Machine     Learning</a>
+    </string>
+    <string name="iot">
+        <a href="https://www.iottechnews.com/"> Internet of Things</a>
+    </string>
+    <string name="ARVR">
+        <a href="http://www.arvrmagazine.com/"> Augmented Reality/Virtual Reality</a>
+    </string>
+    <string name="mun">
+        <a href="https://timesofindia.indiatimes.com/topic/model-United-Nations"> Model United Nation</a>
+    </string>
+    <string name="uni">
+        <a href="https://spaceplace.nasa.gov/menu/space/"> Universe</a>
+    </string>
+    <string name="tesla">
+        <a href="https://yourstory.com/2019/08/tesla-spacex-elon-musk-personal-life"> Tesla/Space X</a>
+    </string>
+    <string name="web">
+        <a href="https://thenextweb.com/dd/"> Web Development</a>
+    </string>
+    <string name="block">
+        <a href="https://www.coindesk.com/"> Blockchain</a>
+    </string>
+    <string name="auto">
+        <a href="https://auto.ndtv.com/news"> Automobile</a>
+    </string>
+    <string name="design">
+        <a href="http://www.designandarchitecture.com/"> Design and Architecture</a>
+    </string>
+    <string name="psycho">
+        <a href="https://www.sciencedaily.com/news/mind_brain/psychology/"> Psychology</a>
+    </string>
+    <string name="nano">
+        <a href="https://www.sciencedaily.com/news/matter_energy/nanotechnology/"> Nanotechnology</a>
+    </string>
+    <string name="quantum">
+        <a href="https://phys.org/physics-news/quantum-physics/"> Quantum Physics</a>
+    </string>
+    <string name="robo">
+        <a href="https://www.sciencedaily.com/news/computers_math/robotics/"> Robotics</a>
+    </string>
+    <string name="net">
+        <a href="https://www.networkworld.com/news/"> Networking</a>
+    </string>
+    <string name="auto1">
+        <a href="https://www.isa.org/about-isa/what-is-automation/"> Automation</a>
+    </string>
+    <string name="entre">
+        <a href="https://economictimes.indiatimes.com/topic/Entrepreneurship"> Entrepreneurship</a>
+    </string>
+    <string name="com">
+        <a href="https://www.omicsonline.org/open-access/the-changing-world-of-media-and-communication-2165-7912.1000116.php?aid=6473"> Communication and Media</a>
+    </string>
+    <string name="sale">
+        <a href="https://www.entrepreneur.com/topic/marketing"> Sales and Marketing</a>
+    </string>
+    <string name="fin">
+        <a href="https://www.cnbc.com/finance/"> Financial Services</a>
+    </string>
+    <string name="title_activity_tp">tp</string>
+</resources>

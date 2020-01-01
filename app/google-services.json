@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "983068125398",
+    "firebase_url": "https://mufee-c284f.firebaseio.com",
+    "project_id": "mufee-c284f",
+    "storage_bucket": "mufee-c284f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983068125398:android:9efbda6801308cc5b24177",
+        "android_client_info": {
+          "package_name": "com.example.mufee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983068125398-483190n33tupos30ej9aab3seh1r6dhc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMdYvFTa2t8Pm_PRGd98pXLIaQev4bsZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983068125398-483190n33tupos30ej9aab3seh1r6dhc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
